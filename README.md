@@ -1,14 +1,20 @@
 # PHP
-
-Links utilizados na aula:
-
+#Links utilizados na aula:
 https://www.mongodb.com/
-
 http://db-engines.com/en
 
-Instalando o PHP
+#Instalando o PHP
 
-Comandos Linux:
+#Comandos Linux:
+#Debian
+apt update
+apt apt upgrade
+#apt install php(Versao do Apache) libapache2-mod-php(Versão do Apache)
+apt install apache2 libapache2-mod-php8.2
+
+#RedHat
+yum update && upgrade -y
+
 
 Instalar o servidor Apache:
 
@@ -17,7 +23,7 @@ sudo apt-get install apache2
 
 
 Instale o PHP e o módulo para o Apache:
-sudo apt-get install php(Versao do Apache) libapache2-mod-php(Versão do Apache)
+
 E reinicie o servidor Apache2 com o comando:
 systemctl restart apache2
 
