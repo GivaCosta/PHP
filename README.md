@@ -10,6 +10,7 @@ http://php.net/downloads.php
 #Debian
 apt update
 apt upgrade
+#Instale o PHP e o módulo para o Apache:
 #apt install php(Versao do Apache) libapache2-mod-php(Versão do Apache)
 apt install apache2 libapache2-mod-php8.2
 #E reinicie o servidor Apache2 com o comando:
@@ -27,7 +28,7 @@ sudo apt-get update
 sudo apt-get install apache2
 
 
-Instale o PHP e o módulo para o Apache:
+
 
 
 
