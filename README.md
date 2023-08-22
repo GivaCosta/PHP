@@ -13,6 +13,12 @@ apt upgrade
 #Instale o PHP e o módulo para o Apache:
 #apt install php(Versao do Apache) libapache2-mod-php(Versão do Apache)
 apt install apache2 libapache2-mod-php8.2
+#Ir no diretorio a seguir e criar um arquivo (info.php) para testar
+/var/www/html/
+<?php phpinfo(); ?>
+/var/www/html/public_html/
+<?php phpinfo(); ?>
+
 #E reinicie o servidor Apache2 com o comando:
 systemctl restart apache2
 
